@@ -1,0 +1,16 @@
+# Kernabhängigkeiten für die Fashion-Matching-Pipeline
+open_clip_torch==3.3.0
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.0.2
+Pillow==11.3.0
+
+# Weboberfläche
+streamlit==1.50.0
+
+# Verarbeitung der Vogue-Runway-Metadaten
+pandas==2.3.3
+pyarrow==21.0.0
+
+# Herunterladen der Referenzbilder
+requests==2.32.5

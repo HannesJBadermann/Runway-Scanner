@@ -1,0 +1,66 @@
+# =============================================================================
+# Projekt-spezifische Ausgaben (werden generiert/heruntergeladen)
+# =============================================================================
+
+# Generierte CLIP-Embeddings (.npy-Dateien)
+embeddings/
+
+# Heruntergeladene Vogue-Runway-Referenzbilder
+reference_images/
+
+# Hochgeladene Nutzer-Testbilder
+query_images/
+
+# Automatisch generierte Katalog-Dateien
+catalog.json
+input_data.json
+
+# Großer Vogue-Runway-Datensatz (muss separat beschafft werden)
+VogueRunway.parquet
+
+# =============================================================================
+# Python-Standardausschlüsse
+# =============================================================================
+
+# Byte-kompilierte Python-Dateien
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+ENV/
+
+# Umgebungsvariablen und Geheimnisse
+.env
+.env.*
+
+# Streamlit-Geheimnisse (falls später benötigt)
+.streamlit/secrets.toml
+
+# =============================================================================
+# Betriebssystem- und Editor-Dateien
+# =============================================================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# Temporäre / Test-Dateien
+# =============================================================================
+
+# Throwaway-Testskript (nicht Teil der eigentlichen Anwendung)
+import open_clip.py
