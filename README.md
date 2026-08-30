@@ -34,7 +34,7 @@ Die Anwendung berechnet für jedes Bild ein **CLIP-Embedding** und vergleicht es
 1. Repository klonen:
 
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/HannesJBadermann/Runway-Scanner>
    cd Runway-Scanner
    ```
 
